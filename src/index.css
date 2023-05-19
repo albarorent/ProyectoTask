@@ -59,6 +59,8 @@ button{
     flex-direction: column;
 }
 
+
+
 .div__padre{
     padding: 1.5rem;
     display: flex;
@@ -88,4 +90,19 @@ button{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media (max-width:380px){
+    .task__form{
+        gap: 0.5rem;
+    }
+    .task__clean{
+        gap: 0.5rem;
+    }
+    input{
+        padding: 0;
+    }
+    button{
+        width: 100%;
+    }
 }
