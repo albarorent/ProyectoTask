@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1735;
+}
+
+td{
+    display: flex;
+    gap: 0.5rem;
+}
+
+th{
+    color: #001449;
+}
+
+input{
+    padding: 0.5rem;
+    border:1px solid #04394e;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+label{
+    color: #001449;
+    font-size: 1.2rem;
+}
+
+hr{
+    background-color: #001449;
+}
+
+button{
+    width: 150px;
+    margin: auto;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    outline: none;
+    border: 0.125rem solid #04394e;
+    background-color: #04394e;
+    color: #fff;
+    font-weight: 700;
+    transition: all .5s ease;
+}
+
+.container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div__padre{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.5rem;
+
+}
+
+.task__form{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom:0.1875rem solid ;
+    
+}
+
+.task__table{  
+    margin-top: 1rem; 
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.task__clean{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
