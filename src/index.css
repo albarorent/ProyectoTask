@@ -8,6 +8,10 @@ body{
     background-color: #1d1735;
 }
 
+h1{
+    color: #001449;
+}
+
 td{
     display: flex;
     gap: 0.5rem;
@@ -74,6 +78,7 @@ button{
 .task__form{
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
     padding-bottom: 1rem;
     border-bottom:0.1875rem solid ;
     

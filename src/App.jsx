@@ -49,6 +49,7 @@ function App() {
     <>
       <main className="container">
         <div className="div__padre">
+          <h1>Listado de Tareas</h1>
           <Creartarea crearTarea={crearTarea} />
           <TablaTarea tasks={taskItems} toggleTask={toggleTask} />
           <ControlVisible
